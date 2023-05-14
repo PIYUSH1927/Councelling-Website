@@ -1,0 +1,629 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(238, 236, 232);
+}
+
+.nv{
+    background-color: rgb(238, 236, 232);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    opacity: 0.9;
+}
+h1{
+    margin: 0px;
+}
+.nv h1{
+    padding: 15px;
+    font-size: 35px;
+    margin-left: 30px;
+    color: rgb(105, 21, 21);
+    
+}
+
+.nv a{
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right: 80px;
+    position: relative;
+    left: 350px;
+    text-decoration: none;
+
+}
+.op{
+    font-size: 25px;
+    color: rgb(105, 21, 21);
+    
+}
+.gs{
+    color: white;
+    background-color: rgb(68, 13, 13);
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.gs:hover{
+    background-color: black;
+}
+
+
+#csexp{
+    display: flex;
+    
+}
+.first{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    margin: 60px;
+}
+.second{
+    margin: 20px;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+
+#csexp img{
+    height: 550px;
+    width: 700px;
+    border-radius: 40px;
+}
+.first h1{
+    color:rgb(105, 21, 21) ;
+    
+    font-size: 70px;
+    margin-right: 140px;
+}
+.first p{
+    color:rgb(105, 21, 21) ;
+    
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+#mission{
+    background-image: url('../pictures/history.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.msn{
+    height: 60%;
+    width: 80%;
+    background-color:rgb(21, 94, 72);
+    opacity: 0.7;
+    border-radius: 50px;
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+.mn1{
+    width: 50%;
+    float: left;
+    
+    color: white;
+  
+}
+.mn1 h1{
+    font-size: 80px;
+    margin-left: 60px;
+    
+}
+.mn1 p{
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 40px;
+}
+.mn2{
+    width: 50%;
+    float: right;
+    
+    color: white;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:rgb(238, 236, 232);
+    
+}
+#features h1{
+    color: rgb(105, 21, 21);
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+.feature{
+    display: flex;
+    
+}
+.feature img{
+    width: 390px;
+    height: 470px;
+    margin-left: 60px;
+    border-radius: 50px;
+    border: 7px solid green ;
+    border-radius: 42px;
+}
+.bx h2{
+    color: rgb(105, 21, 21);
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    
+}
+.bx{
+    text-align: center;
+}
+
+
+#Services{
+    background-color:rgb(38, 113, 90);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.service{
+    color: white;
+    width: 80%;
+}
+.service h1{
+    font-size: 80px ;
+}
+.service p{
+    font-size: 50px;
+}
+
+
+#history{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.his1{
+    width: 50%;
+    float: left;
+}
+.his1 h1{
+    margin-left: 100px;
+    color:rgb(105, 21, 21) ;
+    font-size: 60px;
+    
+}
+.his1 p{
+    margin-left: 100px;
+    color:rgb(105, 21, 21) ;
+    font-size: 25px;
+    padding-bottom: 30px;
+    
+}
+.his2{
+    width: 45%;
+    float: right;
+    margin-top: 80px;
+}
+.his2 img{
+    width: 90%;
+    height: 80%;
+    border-radius: 50px;
+    border-bottom-left-radius: 350px;
+    text-align: center;
+    
+}
+
+
+#vdo{
+    background-color: rgb(75, 4, 4);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+#vdo h1{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.vid{
+    
+    width: 80%;
+    margin-left: 150px;
+    background-color: rgb(75, 4, 4);
+    border: 5px solid gray;
+    border-radius: 42px;
+    text-align: center;
+}
+
+
+
+
+#team{
+    padding: 100px;
+}
+#team h1{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+    color:rgb(105, 21, 21) ;
+}
+.container{
+    display: flex;
+}
+.tm img{
+    width: 320px;
+    height: 450px;
+    margin-left: 50px;
+    display: inline;
+    border: 5px solid gray;
+}
+.tm h2{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(105, 21, 21) ;
+    margin: 0px;
+}
+.tm p{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(105, 21, 21) ;
+}
+
+.tm:hover{
+    transform:scale(1.2);
+}
+
+#help{
+    display: flex;
+    background-color:rgb(21, 94, 72);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hp1{
+    
+    width: 45%;
+    float: left;
+    color: white;
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+.hp2{
+    margin-top: 50px;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.hp2 img{
+    height: 100%;
+    width: 70%;
+    border-radius:600px;
+}
+
+.inp{
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    background-color:rgb(21, 94, 72);
+    color: white;
+    border: 2px solid white;
+}
+
+.submit{
+    font-size: 15px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    
+}
+.submit:hover{
+    color:white;
+    background-color: black;
+}
+
+
+
+
+footer{
+    background-color: rgb(75, 4, 4);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+@media only screen and (max-width:1000px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .nv a{
+        display: none;
+    
+    }
+    .nv h1{
+        
+        font-size: 35px;
+        margin-left: 10px;
+        
+    }
+
+    #csexp{
+        display: block;
+    }
+    .first{
+        width: 92%;
+        margin: 30px;
+    }
+    .second{
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    
+    
+    #csexp img{
+        height: 350px;
+        width: 400px;
+        border-radius: 40px;
+        position: relative;
+        top: 10px;
+        margin-bottom: 100px;
+    }
+    .first h1{
+        color:rgb(105, 21, 21) ;
+        font-size: 40px;
+        margin-right: 140px;
+    }
+    .first p{
+        color:rgb(105, 21, 21) ;
+        font-size: 25px;
+        padding-bottom: 30px; 
+    }
+
+    
+    #mission{
+        background-image: none;
+    } 
+    .msn{
+        display: block;
+        background-color: transparent;
+        opacity: 0.7;
+        border-radius: 0px;
+        position: relative;
+        top: 50px;
+        left: 40px;
+
+    }
+    .mn1{
+        width: 100%;
+        color: white;
+        height: 50%;
+        width: 100%;
+        background-color:rgb(21, 94, 72);
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+
+    }
+    .mn1 h1{
+        
+        font-size: 40px;
+        margin-left: 60px;
+        
+    }
+    .mn1 p{
+        margin-top: 0px;
+        margin-left: 70px;
+        font-size: 30px;
+    }
+    .mn2{
+        height: 60%;
+        width: 100%;
+        background-color:rgb(21, 94, 72);
+        border-bottom-left-radius: 50px ;
+        border-bottom-right-radius: 50px ;
+        width: 100%;
+        color: white;
+        margin-top: 0px;
+        font-size: 25px;
+        padding-bottom: 100px;
+        margin-bottom: 100px;
+    }
+
+
+    #features h1{
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+        text-decoration: underline;
+    }
+    .feature{
+        display: block;
+    }
+    .feature img{
+        width: 300px;
+        height: 350px;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 50px;
+
+    }
+    .bx h2{
+        font-size: 40px;
+        padding: 0px;
+        margin-top: 10px;
+        
+    }
+    .bx{
+        text-align: center;
+    }
+
+    #Services{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .service h1{
+        font-size: 50px ;
+    }
+    .service p{
+        font-size: 40px;
+    }
+
+
+    #history{
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .his1{
+        width: 100%;
+        float: left;
+    }
+    .his1 h1{
+        margin-left: 50px;
+        font-size: 50px;
+        text-decoration: underline;
+        
+    }
+    .his1 p{
+        margin-left: 20px;
+        color:rgb(105, 21, 21) ;
+        font-size: 20px;
+        
+    }
+    .his2{
+        width: 100%;
+        float:none;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .his2 img{
+        width: 400px;
+        height: 300px;
+        border-radius: 0px;
+        border-bottom-left-radius: 0px;
+        
+    }
+
+
+    #vdo{
+        background-color: rgb(75, 4, 4);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+    }
+    #vdo iframe{
+        height: 350px;
+        width: 380px;
+    }
+
+    .vid{
+        
+        width: 90%;
+        margin-left: 10px;
+        background-color: rgb(75, 4, 4);
+        border: 5px solid gray;
+        border-radius: 0px;
+        text-align: center;
+    }
+
+    #team{
+        padding: 0px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #team h1{
+        text-align: center;
+        font-size: 46px;
+        text-decoration: underline;
+        margin-bottom: 30px;
+        color:rgb(105, 21, 21) ;
+    }
+    .container{
+        display: block;
+    }
+    .tm img{
+        width: 270px;
+        height: 350px;
+        margin-left: 70px;
+        display: inline;
+        border: 5px solid gray;
+    }
+    .tm h2{
+        text-align: center;
+        font-size: 30px;
+        color:rgb(105, 21, 21) ;
+        margin: 0px;
+    }
+    .tm p{
+        text-align: center;
+        font-size: 20px;
+        color:rgb(105, 21, 21) ;
+    }
+    
+
+    #help{
+        display: flex;
+        background-color:rgb(21, 94, 72);
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .hp1{
+        
+        width: 80%;
+        float: left;
+        color: white;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+    .hp1 h1{
+        margin-bottom: 20px;
+    }
+    .hp1 textarea{
+        width: 250px;
+    }
+    
+    .hp2{
+        margin-top: 50px;
+        width: 100%;
+        float: right;
+        text-align: center;
+    }
+    .hp2 img{
+        height: 100%;
+        width: 70%;
+        border-radius:600px;
+    }
+    
+    .inp{
+        font-size: 20px;
+        padding: 10px 40px 10px 40px;
+        background-color:rgb(21, 94, 72);
+        color: white;
+        border: 2px solid white;
+    }
+    
+    .submit{
+        margin-top: 20px;
+        
+    }
+
+    
+}
