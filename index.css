@@ -367,12 +367,12 @@ footer{
         display: block;
     }
     .first{
-        width: 92%;
+        width: 85%;
         margin: 30px;
     }
     .second{
         margin: 0px;
-        width: 100%;
+        width: 90%;
         text-align: center;
         padding-bottom: 0px;
     }
@@ -380,10 +380,11 @@ footer{
     
     #csexp img{
         height: 350px;
-        width: 400px;
+        width: 360px;
         border-radius: 40px;
         position: relative;
         top: 10px;
+        right: 10px;
         margin-bottom: 100px;
     }
     .first h1{
@@ -503,9 +504,10 @@ footer{
         
     }
     .his1 p{
-        margin-left: 20px;
+        margin-left: 15px;
         color:rgb(105, 21, 21) ;
         font-size: 20px;
+        width: 90%;
         
     }
     .his2{
@@ -515,7 +517,7 @@ footer{
         margin-left: 10px;
     }
     .his2 img{
-        width: 400px;
+        width: 380px;
         height: 300px;
         border-radius: 0px;
         border-bottom-left-radius: 0px;
@@ -531,7 +533,7 @@ footer{
     }
     #vdo iframe{
         height: 350px;
-        width: 380px;
+        width: 350px;
     }
 
     .vid{
@@ -614,7 +616,7 @@ footer{
     
     .inp{
         font-size: 20px;
-        padding: 10px 30px 10px 30px;
+        padding: 10px 26px 10px 26px;
         background-color:rgb(21, 94, 72);
         color: white;
         border: 2px solid white;
